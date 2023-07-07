@@ -1,0 +1,1 @@
+import{$ as r,Z as i}from"./entry.a87e728b.js";import{u as a}from"./useAuth.a10c5a23.js";const f=r(()=>{const e=a();if(!e.value)return i("/login");if(!(e.value.email_verified_at||e.value.is_verified))return i("/verify-email")});export{f as default};
